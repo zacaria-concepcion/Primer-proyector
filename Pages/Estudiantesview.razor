@@ -1,0 +1,72 @@
+@page "/Estudiante"
+
+
+
+<PageTitle>Estudiante Registrados</PageTitle>
+<h1>Estudiante</h1>
+
+<label for="txtNombre">Nombres</label>
+<input @bind="EstudianteSeleccionado!.Nombres" type="text" name="txtNombres" id="txtNombres">
+<label for="txtDescripcion">Apellidos </label>
+<input @bind="EstudianteSeleccionado!.Apellidos" type="text" name="txtApellidos" id="txtApellidos">
+<label for="txtPrecio">FechaNacimiento</label>
+<input @bind="EstudianteSeleccionado!.FechaNacimiento" type="number" name="txtFechaNacimiento" id="txtFechaNacimiento">
+<label for="txtNombre">Matricula</label>
+<input @bind="EstudianteSeleccionado!.Matricula" type="text" name="txtMatricula" id="txtMatricula">
+<label for="txtNombre">Carrera</label>
+<input @bind="EstudianteSeleccionado!.Carrera" type="text" name="txtCarrera" id="txtCarrera">
+
+
+
+<div class="mt-3"></div>
+<button class='btn @(EstudianteSeleccionado!.EstudianteID==0?"btn-success":"btn-warning")' @onclick="Guardar">
+    <span class='oi @(EstudianteSeleccionado!.EstudianteID==0?"oi-plus":"oi-pencil")'></span>
+</button>
+
+
+
+
+<div class="mt-3"></div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>FechaNacimiento </th>
+            <th>Matricula</th>
+            <th>Carrera</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Estudiante!=null){
+            @foreach (var Estudiante in Estudiante)
+        {
+            <tr>
+                <td>@Estudiante.EstudianteID</td>
+                <td>@Estudiante.Nombre</td>
+                <td>@Estudiante.Apellidos</td>
+                <td>@Estudiante.FechaNacimiento</td>
+                <td>@Estudiante.Matricula.ToString("N2")</td>
+                <td>@Estudiante.Carrera</td>
+
+                <td>
+                    <div class="btn-group">
+                        <button class="btn btn-warning" @onclick="()=>Editar(Estudiante.Estudiante)">
+
+                            <span class="oi oi-pencil"></span>
+                        </button>
+                        <button class="btn btn-danger" @onclick="()=>Eliminar(Estudiante.EstudianteID)">
+                            <span class="oi oi-trash"></span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+        }
+        }
+    </tbody>
+</table>
+
+
+
+
