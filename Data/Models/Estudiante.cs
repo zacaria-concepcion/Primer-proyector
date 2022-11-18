@@ -29,8 +29,6 @@ public class Estudiante
      
      }              
 
-     public void Update(string Nombre,string Apellidos,int FechaNacimiento,int Matricula, string Carrera)
-    {
          
             Nombre=Nombre;
             Apellidos = Apellidos;
