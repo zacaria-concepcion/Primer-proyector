@@ -23,8 +23,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cristian/OneDrive - Universidad Tecnologica del Cibao Oriental/Lenguaje de programacion 3  Oct-Dis 2022/Zacaria20181285/Pages/Estudiantesview.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXN2aWV3LnJhem9y
+[C:/Users/Cristian/OneDrive - Universidad Tecnologica del Cibao Oriental/Lenguaje de programacion 3  Oct-Dis 2022/Zacaria20181285/Pages/EstudiantesView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXNWaWV3LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cristian/OneDrive - Universidad Tecnologica del Cibao Oriental/Lenguaje de programacion 3  Oct-Dis 2022/Zacaria20181285/Pages/FetchData.razor]
@@ -33,6 +33,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Cristian/OneDrive - Universidad Tecnologica del Cibao Oriental/Lenguaje de programacion 3  Oct-Dis 2022/Zacaria20181285/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cristian/OneDrive - Universidad Tecnologica del Cibao Oriental/Lenguaje de programacion 3  Oct-Dis 2022/Zacaria20181285/Pages/Pe.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cristian/OneDrive - Universidad Tecnologica del Cibao Oriental/Lenguaje de programacion 3  Oct-Dis 2022/Zacaria20181285/Shared/SurveyPrompt.razor]

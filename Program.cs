@@ -8,6 +8,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSqlite<Zacaria20181285DbContext>("Data Source=.//Data//Context//localDB.sqlite");
+builder.Services.AddScoped<IZacaria20181285DbContext,Zacaria20181285DbContext>();
+
+var scopeFactory = app.Services.GetRequiredService();
+ using (var scope = scopeFactory.CreateScope()) 
+ { var db = scope.ServiceProvider.GetRequiredService();
+  if (db.Database.EnsureCreated()) {
+
+} } 
 
 var app = builder.Build();
 
