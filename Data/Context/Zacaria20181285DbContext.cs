@@ -4,10 +4,10 @@ using Microsoft.EntityFrameworkCore;
 namespace  Zacaria20181285.Data.Context;
 
 
-public class Zacaria20181285DbContext:DbContext,IZacaria20181285DbContext
+public class Zacaria20181285DbContext:DbContext
 {
 
-    public LP3DbContext(DbContextOptions options):base(options)
+    public Zacaria20181285DbContext(DbContextOptions options):base(options)
     {
         
     }
@@ -17,3 +17,4 @@ public class Zacaria20181285DbContext:DbContext,IZacaria20181285DbContext
 
 
 }  
+
