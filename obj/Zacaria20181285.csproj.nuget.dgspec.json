@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cristian\\OneDrive - Universidad Tecnologica del Cibao Oriental\\Lenguaje de programacion 3  Oct-Dis 2022\\Zacaria20181285\\Zacaria20181285.csproj": {}
+    "C:\\2018-1285\\Primer-proyector\\Zacaria20181285.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cristian\\OneDrive - Universidad Tecnologica del Cibao Oriental\\Lenguaje de programacion 3  Oct-Dis 2022\\Zacaria20181285\\Zacaria20181285.csproj": {
+    "C:\\2018-1285\\Primer-proyector\\Zacaria20181285.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cristian\\OneDrive - Universidad Tecnologica del Cibao Oriental\\Lenguaje de programacion 3  Oct-Dis 2022\\Zacaria20181285\\Zacaria20181285.csproj",
+        "projectUniqueName": "C:\\2018-1285\\Primer-proyector\\Zacaria20181285.csproj",
         "projectName": "Zacaria20181285",
-        "projectPath": "C:\\Users\\Cristian\\OneDrive - Universidad Tecnologica del Cibao Oriental\\Lenguaje de programacion 3  Oct-Dis 2022\\Zacaria20181285\\Zacaria20181285.csproj",
-        "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cristian\\OneDrive - Universidad Tecnologica del Cibao Oriental\\Lenguaje de programacion 3  Oct-Dis 2022\\Zacaria20181285\\obj\\",
+        "projectPath": "C:\\2018-1285\\Primer-proyector\\Zacaria20181285.csproj",
+        "packagesPath": "C:\\Users\\Estudiantes\\.nuget\\packages\\",
+        "outputPath": "C:\\2018-1285\\Primer-proyector\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Cristian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Estudiantes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
